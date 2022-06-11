@@ -1,262 +1,187 @@
-<script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script>
-<html>
-<head>
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-<script language="javascript" type="text/javascript">
-alert("WELCOME TO MY PORTFOLIO")
-</script>
 
-<body onload="setbackground();">
-
-
-</head>
-<body style="background-color:RGB(247, 202, 201);">
-
-
-
-
-<header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span class="ml-3 text-xl">RAK'S</span>
-    </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="https://instagram.com/r.a.k.s.h.i.t__b.h.a.t?utm_medium=copy_link" target="_blank"</href><u>instagram</u></a></a>
-	  
-	  
-      <a class="mr-5 hover:text-gray-900">.</a>
-      <a class="mr-5 hover:text-gray-900"><a href="https://api.whatsapp.com/send?phone=+919353324505" target="_blank"</href><u>whatsapp</u></a></a>
-      <a class="mr-5 hover:text-gray-900"><a href="https://www.linkedin.com/in/rakshit-bhat-249b95213" target="_blank"</href><u>linkedin</u></a></a>
-    </nav>
-    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="https://image.shutterstock.com/image-vector/caution-exclamation-mark-white-red-260nw-1055269061.jpg" target="_blank"</href><u></u>not available</a>
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
   </div>
-</header>
-
-
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">MY PROJECTS</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><b>YOU WILL GET  MY ALL PROJECTS HERE</b></p>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-    <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-      <div class="relative flex-grow w-full">
-        <label for="full-name" class="leading-7 text-sm text-gray-600">UNDER</label>
-        <input type="text" id="full-name" name="full-name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-transparent focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Prem Shahi</div>
+       <div class="text-three">UI/UX Designer</div>
+       <div class="text-four">From Nepal</div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Designing Is My Passion</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis, quis aliquam unde sed maiores sit! Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium? Aperiam nulla non, nesciunt fuga rem perferendis alias et, temporibus, distinctio culpa unde a laborum libero ducimus. Facilis veniam sit praesentium, voluptatibus sint maxime iusto eaque.</p>
+      <div class="button">
+        <button>Download CV</button>
       </div>
-      <div class="relative flex-grow w-full">
-        <label for="email" class="leading-7 text-sm text-gray-600">CONSTRUCTION</label>
-        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-transparent focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+       <div class="experience">
+         <div class="num">10</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">PHP</div>
+         <div class="per">60%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Web Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Graphic Design</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Digital Marketing</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Icon Design</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Photography</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Apps Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button>Let's Chat</button>
       </div>
-      <button class="text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg"><a href="https://image.shutterstock.com/image-vector/caution-exclamation-mark-white-red-260nw-1055269061.jpg" target="_blank"</href><u></u>NOT AVAILABLE</a></button>
     </div>
   </div>
 </section>
 
-
-<footer class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">RAK'S</span>
-      </a>
-      <p class="mt-2 text-sm text-gray-500">
-	  <a href="Home.jpeg" target="new">
-    <img src="Home.jpeg">
-</a>ABOUT ME</p>
-    </div>
-    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">EASY PROJECTS</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800"><a href="https://replit.com/@RakshitBhat/Stonepaperscissors-game#main.py" target="_blank"</href><u>ROCK,PAPER,SCISSORS</u></a></a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800"><a href="https://replit.com/@RakshitBhat/password-generator-start?v=1" target="_blank"</href><u>PASSWORD GENERATOR</u></a></a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800"><a href="https://replit.com/@RakshitBhat/treasure-island-end?v=1" target="_blank"</href><u>TRESURE HUNT</u> </a></a>
-          </li>
-          <li>
-           <a class="text-gray-600 hover:text-gray-800"><a href="https://replit.com/@RakshitBhat/blind-auction-completed#main.py" target="_blank"</href><u>AUCTION BIDDING</u> </a></a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">MEDIUM PROJECTS</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">INTERMIDEATE PROJECTS</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">HIGH LEVEL PROJECTS</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-    </div>
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
   </div>
- 
 </footer>
 
-
-  <div class="container px-5 py-24 mx-auto">
-    <h1 class="text-3xl font-medium title-font text-white mb-12 text-center">Thoughts</h1>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 md:w-1/2 w-full">
-        <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
-            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-          </svg>
-          <p class="leading-relaxed mb-6">GREAT THINGS TAKES TIME</p>
-          <a class="inline-flex items-center">
-            <img alt="testimonial" src="https://images.unsplash.com/photo-1529946825183-536c6317f60e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=763&q=80" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
-            <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-white">RAKSHIT BHAT</span>
-              <span class="text-gray-500 text-sm">DEVELOPER</span>
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/2 w-full">
-        <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
-            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-          </svg>
-          <p class="leading-relaxed mb-6">NEVER SETTLE</p>
-          <a class="inline-flex items-center">
-            <img alt="testimonial" src="Screenshot 2021-12-20 233910.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
-            <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-white">RAKS</span>
-              <span class="text-gray-500 text-sm">DESIGNER</span>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="text-gray-600 body-font relative">
-  <div class="absolute inset-0 bg-gray-300">
-    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
-  </div>
-  <div class="container px-5 py-24 mx-auto flex">
-    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-      <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-      <p class="leading-relaxed mb-5 text-gray-600">Write your valuable feed back here</p>
-      <div class="relative mb-4">
-        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder = "don't enter email here">
-      </div>
-      <div class="relative mb-4">
-        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="this feedback box is under work .So please use below (Tap on this to fill feedback form) button"></textarea>
-      </div>
-      <button class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button is not working currently</button>
-      <p class="text-xs text-gray-500 mt-3">always smile</p>
-    </div>
-  </div>
-</section>
-        <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href="https://forms.gle/bEzkYuXPDczg7L1U7" target="_blank" >Tap on this to fill feedback form</a></button>
-        </div>
-        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a class="text-blue-500">rakshitb44@gmail.com</a>
-          <p class="leading-normal my-5">anchetgeri oni dajiban peth
-            <br>hubli 580028
-			<br> 9353324505
-          </p>
-          <span class="inline-flex">
-            <a class="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a class="ml-4 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-			
-            <a class="ml-4 text-gray-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"><a href="https://instagram.com/r.a.k.s.h.i.t__b.h.a.t?utm_medium=copy_link" target="_blank"</href><u></u></a></path>
-              </svg>
-            </a>
-            <a class="ml-4 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-              </svg>
-            </a>
-			
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-	
-			
-
- <center> <h2> Number of people visited</h2></center>
-<center> <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/903956/t/13"></script> </center>
-  
-
-			
-</section>
-
-
-
+  <script src="script.js"></script>
 </body>
 </html>
