@@ -509,6 +509,7 @@ footer .text span a:hover{
   }
 }
 
+<!-- lets chat button-->
 .animated-border-button {
   background-color: #263059;
   border: none;
@@ -543,4 +544,14 @@ footer .text span a:hover{
 .animated-border-button:hover:before,
 .animated-border-button:hover:after {
   width: 100%;
+}
+
+<!-- download button-->
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
